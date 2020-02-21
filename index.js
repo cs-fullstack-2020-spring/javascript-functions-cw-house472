@@ -40,17 +40,23 @@
 
 // ### Problem 4
 // Create a function called checkPassword. Send two string variables to the checkPassword function to check if the strings are equal. Return true if they are equal and false if they are not equal. Print the function's return value.
-let word1="word"
-let word2="word2"
-function checkPassword(variable1,variable2){
-    console.log(variable1,variable2)
+function checkPassword(){
+    return
+//     word1=("word")
+//     word2=("word2")
+// }
+// function word1(name1){
+//   console.log(name1)
+// }
+// function word2(name2){
+//     console.log(name2)
+// }
+// if(name1 == name2){
+//     console.log()
 }
-if(word1!=word2){
-    console.log(true)
-} else{
-    console.log(false)
-}
-word2="word"
+
+ 
+
 // ### Problem 5
 // Create a ```sumOf3Numbers``` function that will print out the sum of the three numbers using the starting code below:
 // ```javascript
