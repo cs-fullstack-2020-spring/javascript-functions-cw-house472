@@ -1,7 +1,7 @@
-// ### Problem 1
+// // ### Problem 1
 
-// Create a ```printNumbers``` function to print integers from -25 to 20.
-// create function and print
+// // Create a ```printNumbers``` function to print integers from -25 to 20.
+// // create function and print
 // let countNumbers;
 // function printNumbers (num1){
 //  console.log(num1)
@@ -13,9 +13,9 @@
 
 
 
-// ### Problem 2
-// Create a function that’s passed a firstName and lastName. Return lastName comma firstName.
-// assign variable for first and last name
+// // ### Problem 2
+// // Create a function that’s passed a firstName and lastName. Return lastName comma firstName.
+// // assign variable for first and last name
 // let firstName="charles"
 // let lastName= "gordon"
 // // create names function
@@ -26,12 +26,13 @@
 // names(firstName,lastName)
 
 
-// ### Problem 3
-// Create a function in your program that counts from 0 to [NUMBER]
+// // ### Problem 3
+// // Create a function in your program that counts from 0 to [NUMBER]
 // let number;
 // function count(num1){
-//     console.log(count)
+//     console.log(count) // !! your don't have a param called count but you do have on called num1
 // }
+// // !! your loop is outside of your function
 // for(i=0; i= number;i=i++){
 //     number=10
 //     console.log(i)
@@ -40,8 +41,9 @@
 
 // ### Problem 4
 // Create a function called checkPassword. Send two string variables to the checkPassword function to check if the strings are equal. Return true if they are equal and false if they are not equal. Print the function's return value.
-function checkPassword(){
-    return
+// !! : the check can be done in one function with two parameters
+// function checkPassword(){
+//     return
 //     word1=("word")
 //     word2=("word2")
 // }
@@ -51,9 +53,10 @@ function checkPassword(){
 // function word2(name2){
 //     console.log(name2)
 // }
+// // !! name1 and name2 are not defined variables (they are parameters which means they only work in your function)
 // if(name1 == name2){
 //     console.log()
-}
+// }
 
  
 
